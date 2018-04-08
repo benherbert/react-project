@@ -21185,17 +21185,11 @@ function FormField(_ref) {
 
 
 	var renderLabel = function renderLabel() {
-		return (
-			//<Label labelFor={labelFor} labelValue={labelValue} />
-			_react2.default.createElement(_Label2.default, { labelFor: labelFor, labelValue: labelValue })
-		);
+		return _react2.default.createElement(_Label2.default, { labelFor: labelFor, labelValue: labelValue });
 	};
 
 	var renderInput = function renderInput() {
-		return (
-			//<Input name={name} type={type} placeholder={placeholder} />
-			_react2.default.createElement(_Input2.default, { name: name, type: type, placeholder: placeholder })
-		);
+		return _react2.default.createElement(_Input2.default, { name: name, type: type, placeholder: placeholder });
 	};
 
 	return _react2.default.createElement(
@@ -21264,10 +21258,7 @@ function Input(_ref) {
 	    _ref$placeholder = _ref.placeholder,
 	    placeholder = _ref$placeholder === undefined ? '' : _ref$placeholder;
 
-	return (
-		//<input type={type} placeholder={placeholder} className='input' />
-		_react2.default.createElement('input', _extends({ type: type, placeholder: placeholder }, { className: 'input' }))
-	);
+	return _react2.default.createElement('input', _extends({ type: type, placeholder: placeholder }, { className: 'input' }));
 }
 
 exports.default = Input;

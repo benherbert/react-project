@@ -1,4 +1,5 @@
 import React from 'react'
+import { connect } from 'react-redux'
 import FormField from './2-molecules/form-field/FormField'
 
 function App () {

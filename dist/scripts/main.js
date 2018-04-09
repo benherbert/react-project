@@ -1056,6 +1056,7 @@ module.exports = focusNode;
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1084,6 +1085,10 @@ if (process.env.NODE_ENV !== 'production') {
   // http://fb.me/prop-types-in-prod
   module.exports = __webpack_require__(43)();
 }
+=======
+__webpack_require__(15);
+module.exports = __webpack_require__(32);
+>>>>>>> master
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
@@ -1127,13 +1132,23 @@ var storeShape = __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.shape({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_PropTypes__ = __webpack_require__(18);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+<<<<<<< HEAD
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+=======
+var _App = __webpack_require__(28);
+
+var _App2 = _interopRequireDefault(_App);
+>>>>>>> master
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+<<<<<<< HEAD
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+=======
+_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('root'));
+>>>>>>> master
 
 
 
@@ -21165,11 +21180,52 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
 var _Label = __webpack_require__(70);
 
 var _Label2 = _interopRequireDefault(_Label);
 
 var _Input = __webpack_require__(71);
+=======
+var _FormField = __webpack_require__(29);
+
+var _FormField2 = _interopRequireDefault(_FormField);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function App() {
+	return _react2.default.createElement(
+		'div',
+		null,
+		_react2.default.createElement(_FormField2.default, { labelFor: 'firstname', labelValue: 'First name', name: 'firstname' }),
+		_react2.default.createElement(_FormField2.default, { labelFor: 'lastname', labelValue: 'Last name', name: 'lastname' }),
+		_react2.default.createElement(_FormField2.default, { labelFor: 'email', labelValue: 'Email', type: 'email', name: 'email' })
+	);
+}
+
+exports.default = App;
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Label = __webpack_require__(30);
+
+var _Label2 = _interopRequireDefault(_Label);
+
+var _Input = __webpack_require__(31);
+>>>>>>> master
 
 var _Input2 = _interopRequireDefault(_Input);
 
@@ -21203,7 +21259,11 @@ function FormField(_ref) {
 exports.default = FormField;
 
 /***/ }),
+<<<<<<< HEAD
 /* 70 */
+=======
+/* 30 */
+>>>>>>> master
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21233,7 +21293,11 @@ function Label(_ref) {
 exports.default = Label;
 
 /***/ }),
+<<<<<<< HEAD
 /* 71 */
+=======
+/* 31 */
+>>>>>>> master
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21264,7 +21328,11 @@ function Input(_ref) {
 exports.default = Input;
 
 /***/ }),
+<<<<<<< HEAD
 /* 72 */
+=======
+/* 32 */
+>>>>>>> master
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

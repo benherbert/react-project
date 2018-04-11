@@ -1966,14 +1966,22 @@ var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// Example reducer
+var listManager = function listManager() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var action = arguments[1];
+
+  return {};
+};
+
 // This is the store we create with Redux's createStore method
-var store = (0, _redux.createStore)(appStore, {});
+var store = (0, _redux.createStore)(listManager);
 
 // Provider is given the store as a prop
 _reactDom2.default.render(_react2.default.createElement(
-    _reactRedux.Provider,
-    { store: store },
-    _react2.default.createElement(_App2.default, null)
+  _reactRedux.Provider,
+  { store: store },
+  _react2.default.createElement(_App2.default, null)
 ), document.getElementById('root'));
 
 /***/ }),

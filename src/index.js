@@ -14,6 +14,9 @@ const listManager = (state = {}, action) => {
 // This is the store we create with Redux's createStore method
 const store = createStore(listManager)
 
+// For testing
+console.log(store);
+
 // Provider is given the store as a prop
 ReactDOM.render (
     <Provider store={store}>

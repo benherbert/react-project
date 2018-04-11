@@ -1977,6 +1977,9 @@ var listManager = function listManager() {
 // This is the store we create with Redux's createStore method
 var store = (0, _redux.createStore)(listManager);
 
+// For testing
+console.log(store);
+
 // Provider is given the store as a prop
 _reactDom2.default.render(_react2.default.createElement(
   _reactRedux.Provider,
